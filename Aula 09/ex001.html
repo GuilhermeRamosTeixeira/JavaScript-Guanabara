@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<style>
+    body{
+        background: rgb(red,125,199);
+        color: white;
+        font: 18pt Arial normal;
+    }
+
+</style>
+<body>
+    <h1>iniciando estudos em DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <div id="msg">clique em mim!</div>
+
+    <script>
+        var p1 = window.document.getElementsByName('p')[0]
+        p1.style.color="blue"
+        document.write(p1.innerText)
+var d = window.document.getElementById('msg')
+d.style.innerText='estou aprendendo muito'
+
+    </script>
+</body>
+</html>
